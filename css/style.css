@@ -666,6 +666,7 @@ h3.my-profession {
 
 .service .portfolio-item-inner {
     border: 6px solid var(--bg-black-100);
+    background-color: var(--bg-black-50);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
