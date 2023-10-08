@@ -34,9 +34,9 @@ ul{
 .section{
     background: var(--bg-black-900);
     min-height: 100vh;
+    display: block;
     padding: 0 30px;
     opacity: 1;
-    position: fixed;
     left: 270px;
     top: 0;
     right: 0;
@@ -48,6 +48,11 @@ ul{
 }
 .section.back-section{
     z-index: 1;
+}
+.section.active{
+    z-index: 2;
+    opacity: 1;
+    animation: slideSection 1s ease;
 }
 @keyframes slideSection{
     0%{
