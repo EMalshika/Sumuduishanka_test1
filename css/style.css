@@ -916,9 +916,6 @@ h3.my-profession {
     .home .home-img {
         margin-top: 60px;
     }
-}
-
-@media (max-width:548px) {
     .service .portfolio-item {
         flex: 0 0 50%;
         max-width: 50%;
