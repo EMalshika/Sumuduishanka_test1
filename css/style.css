@@ -327,6 +327,7 @@ h3.hello span {
 h3.my-profession {
     font-size: 30px;
     margin: 15px 0;
+    padding-top: 400px;
 }
 
 .typing {
@@ -742,8 +743,8 @@ h3.my-profession {
 }
 
 .contact .contact-info-item {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 20%;
+    max-width: 20%;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -753,6 +754,11 @@ h3.my-profession {
 }
 
 .contact .contact-info-item .icon .fa {
+    font-size: 25px;
+    color: var(--skin-color);
+}
+
+.contact .contact-info-item .icon .fa-brands {
     font-size: 25px;
     color: var(--skin-color);
 }
@@ -865,6 +871,9 @@ h3.my-profession {
 }
 
 @media (max-width:991px) {
+    h3.my-profession {
+        padding-top: 0px;
+    }    
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item {
@@ -898,5 +907,13 @@ h3.my-profession {
     }
     .home .home-img {
         margin-top: 60px;
+    }
+}
+
+@media (max-width:548px) {
+    .service .portfolio-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 10px;
     }
 }
