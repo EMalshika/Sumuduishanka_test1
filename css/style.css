@@ -767,7 +767,7 @@ h3.my-profession {
 }
 
 .contact .contact-info-item .icon .fa-brands {
-    font-size: 25px;
+    font-size: 40px;
     color: var(--skin-color);
 }
 
@@ -920,5 +920,14 @@ h3.my-profession {
         flex: 0 0 50%;
         max-width: 50%;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width:548px) {
+    h2.hello span {
+        padding-left: 00px;
+    }
+    h3.my-profession {
+        padding-left: 00px;
     }
 }
