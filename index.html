@@ -33,7 +33,7 @@
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello, my nam is <span class="name">Eranda Malshika</span></h3>
-                            <h3 class="my-profession"><span class="typing">සඵලත්වයේ සිංහල පන්තිය</span></h3>
+                            <h3 class="my-profession"><span class="animate"></span><!--i'm<span class="typing">සඵලත්වයේ සිංහල පන්තිය</span>--></h3>
                             <p>I'm a web Designer with extensive experience for over 1 years. My expertise is to create and website design, graphic design, and many more...</p>
                             <a href="https://drive.google.com/file/d/1idq37c6ill4kc8lfeRjDBwHF698dTGiE/view?usp=sharing" class="btn">Download CV</a>
                         </div>
@@ -504,5 +504,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
 	<script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed('.animate', {
+            strings: [
+                "සඵලත්වයේ සිංහල පන්තිය",
+
+            ],
+
+            typeSpeed: 100,
+            backSpeed: 80,
+            loop: true
+        });
+    </script>
 </body>
 </html>
