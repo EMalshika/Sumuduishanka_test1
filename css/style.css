@@ -6,6 +6,7 @@
     --bg-black-50: #393939;
     --text-black-900: #ffffff;
     --text-black-700: #e9e9e9;
+    --secondary: #FFC86B;
 }
 
 body.dark {
@@ -679,7 +680,7 @@ h3.my-profession {
 }
 
 .service .portfolio-item-inner:hover {
-    background-color: var(--secondary);
+    background-color: var(--skin-color);
     transition: 0.6s ease;
 }
 
@@ -708,7 +709,7 @@ h3.my-profession {
 }
 
 .portfolio .portfolio-item-inner {
-    border: 6px solid var(--bg-black-100);
+    /*border: 6px solid var(--bg-black-100);*/
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
@@ -716,6 +717,11 @@ h3.my-profession {
 
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 100%;
+}
+
+.portfolio .portfolio-item-inner:hover {
+    background-color: var(--skin-color);
+    transition: 0.6s ease;
 }
 
 
