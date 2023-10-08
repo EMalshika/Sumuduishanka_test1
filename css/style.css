@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: apex;
+    src: url(Font/apex09.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@900&display=swap');
+
 :root {
     --bg-black-900: #151515;
     --bg-black-100: #212121;
@@ -312,22 +318,24 @@ ul {
     max-width: 60%;
 }
 
-h3.hello {
+h2.hello {
     font-size: 28px;
     margin: 15px 0;
 }
 
-h3.hello span {
-    font-family: 'Clicker Script', cursive;
-    font-size: 30px;
-    font-weight: 700;
+h2.hello span {
+    font-family: apex;
+    font-size: 100px;
+    font-weight: 50;
     color: var(--skin-color);
+    padding-left: 100px;
 }
 
 h3.my-profession {
     font-size: 30px;
     margin: 15px 0;
-    padding-top: 400px;
+    /*padding-top: 0px;*/
+    padding-left: 100px;
 }
 
 .typing {
