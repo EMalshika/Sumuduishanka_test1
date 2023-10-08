@@ -486,6 +486,7 @@ h3.my-profession {
     line-height: 40px;
 }
 
+
 /*.about .about-content .education,
 .about .about-content .experience {
     flex: 0 0 50%;
@@ -581,6 +582,7 @@ h3.my-profession {
 
 /* service */
 
+
 /*.service .container {
     padding-bottom: 40px;
 }
@@ -643,6 +645,7 @@ h3.my-profession {
     color: var(--text-black-700);
     line-height: 25px;
 }*/
+
 .service .container {
     padding-bottom: 40px;
 }
@@ -674,6 +677,11 @@ h3.my-profession {
 
 .service .portfolio-item-inner .portfolio-img img {
     width: 100%;
+}
+
+.service .portfolio-item-inner:hover {
+    background-color: var(--secondary);
+    transition: 0.6s ease;
 }
 
 
