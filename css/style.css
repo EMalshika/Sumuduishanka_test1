@@ -353,6 +353,7 @@ h3.my-profession {
     max-width: 40%;
     text-align: center;
     position: relative;
+    border: 0.25rem solid var(--skin-color); 
 }
 
 
@@ -919,6 +920,10 @@ h3.my-profession {
         flex: 0 0 50%;
         max-width: 50%;
         margin-bottom: 10px;
+    }
+    .home .home-img {
+        border: 0rem solid var(--skin-color); 
+        border-bottom: 0.25rem solid var(--skin-color); 
     }
 }
 
