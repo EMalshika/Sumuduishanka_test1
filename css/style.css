@@ -41,7 +41,7 @@ ul {
 
 .section {
     background: var(--bg-black-900);
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     display: block;
     padding: 0 30px;
     opacity: 1;
@@ -664,7 +664,6 @@ h3.my-profession {
 .service .portfolio-item {
     flex: 0 0 25%;
     max-width: 25%;
-    margin-bottom: 30px;
 }
 
 .service .portfolio-item-inner {
